@@ -18,6 +18,8 @@ axios.get('https://api.github.com/repos/benitezdouglas/nodecpu/commits')
     console.log(duration.asMinutes());   
     console.log(duration.asSeconds());   
     console.log(duration.asMilliseconds());   
+
+    //test new commit
   })
   .catch(function (error) {
     // handle error
